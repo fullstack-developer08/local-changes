@@ -1,0 +1,265 @@
+
+/* CSS for itemsList */
+.view-pre-login .page-content .contain{max-width: none}
+.view-pre-login .page-content .contain .header-content-inner{max-width: 480px}
+.view-pre-login .page-content .contain .header-content-inner .header-cta .header-signInText a{color: #fff; text-decoration: underline}
+
+.view-uvo-availability .page-content .contain.popular-features, .view-uvo-availability .page-content .contain.latest-features{padding: 0 50px; text-align: center;}
+.view-uvo-availability .page-content .contain.popular-features h3, .view-uvo-availability .page-content .contain.latest-features h3{text-align: center;}
+
+.contain.items-list{
+    font: 20px "KIA-REGULAR", sans-serif;
+}
+
+.contain.items-list.veh-care{background: #f7f7f7}
+.contain.items-list.veh-care .inner{padding: 0 72px}
+.contain.items-list.veh-care .row{padding-bottom: 40px}
+.contain.items-list.veh-care .row .item img{width: 100%}
+.contain.items-list.veh-care .row .title{font: 600 24px "KIA-REGULAR", sans-serif; line-height: 29px; margin: 20px 0;}
+.contain.items-list.veh-care .row .care-info{font: 16px "KIA-REGULAR", sans-serif; line-height: 20px; min-height: 100px;}
+
+.contain.items-list.veh-care .row .btnLearnMore{margin: 16px 10%;}
+.contain.items-list.veh-care .row .btnLearnMore a{font: 600 15px "KIA-REGULAR", sans-serif; line-height: 18px; border: 1px solid #000; padding: 15px 0px; color: #000; border-radius: 8px}
+.contain.items-list.veh-care .row .btnLearnMore a:hover{color: #333; border: 1px solid #333}
+.contain.items-list.veh-care .row .btnLearnMore a:active{color: #b3b3b3; border: 1px solid #b3b3b3}
+
+@media (max-width: 1246px) and (min-width: 992px) { 
+	.contain.items-list.veh-care .row .care-info{min-height: 140px}
+}
+
+.contain.items-list.more-explore, .contain.items-list.more-explore-plans{padding: 72px}
+
+.contain.items-list.more-explore .item img, .contain.items-list.popular-features .item img, .contain.items-list.latest-features .item img, .contain.items-list.more-explore-plans .item img{width: 100%;} /* box-shadow: 0 2px 10px 0 rgb(0 0 0 / 50%);*/
+.contain.items-list.popular-features .item img, .contain.items-list.latest-features .item img{margin-bottom: 20px; border-radius: 8px}
+.contain.items-list.more-explore .item p, .contain.items-list.more-explore-plans .item p{font: 600 20px "KIA-REGULAR", sans-serif; line-height: 24px; margin-bottom: 0px; position: absolute; width: calc(100% - 30px); top: calc(50% - 12px); text-align: center; color: #fff; padding: 0px 5px}
+.contain.items-list.more-explore-plans .item p.multiLine span{display: none}
+
+.contain.items-list.popular-features .item, .contain.items-list.latest-features .item{position: relative}
+.contain.items-list.popular-features .item .item-text, .contain.items-list.latest-features .item .item-text{font: 16px "KIA-REGULAR", sans-serif; line-height: 20px; position: absolute;}
+
+.contain.items-list.popular-features .item .item-text{margin-top: 65%;  padding: 16px 16px 32px;}
+.contain.items-list.latest-features .item .item-text{ padding: 0 16px; margin-top:48%;}
+.contain.items-list.latest-features .item .item-button{position: absolute; bottom: 36px; width: 100%;}
+.contain.items-list.popular-features .item .item-text b, .contain.items-list.latest-features .item .item-text b{font: 600 24px "KIA-REGULAR", sans-serif; line-height: 32px;margin-bottom: 8px;}
+.contain.items-list.popular-features .item .desc, .contain.items-list.latest-features .item .desc{top: 14%}
+
+.contain.items-list.popular-features .item p, .contain.items-list.latest-features .item p{text-align: left; color: #fff}
+.contain.items-list.popular-features .item p.info{min-height: 100px}
+.contain.items-list.latest-features .item p:nth-child(2){min-height: 75px}
+
+@media (max-width: 1650px) {
+	.contain.items-list.popular-features .item p.info{min-height: 120px}
+}
+@media (max-width: 1400px) {
+	.contain.items-list.popular-features .item p.info{min-height: 140px}
+}
+@media (max-width: 1250px) {
+	.contain.items-list.popular-features .item p.info{min-height: 160px}
+}
+@media (max-width: 1150px) {
+	.contain.items-list.popular-features .item p.info{min-height: 170px}
+	
+}
+
+@media (max-width: 1450px) {
+	.contain.items-list.more-explore-plans .item p.multiLine span{display: initial}
+    .contain.items-list.more-explore-plans .item p.multiLine{top: calc(50% - 24px);}
+}
+
+.contain.items-list.latest-features .row .item-text a{padding: 12px 0px; height:48px; border: 1px solid #fff; border-radius: 8px; color: #FFFFFF; width: 85%; margin: 0 auto; font: 600 15px 'Kia Signature OTF'; letter-spacing: 0em; text-align: center;line-height: 18px;}
+.contain.items-list.latest-features .row .item-text a:hover{border: 1px solid #d8d9d9; color: #d8d9d9}
+.contain.items-list.latest-features .row .item-text a:active{border: 1px solid #777878; color: #777878}
+
+.contain.items-list.latest-features .row .item-button a{padding: 12px 0px; height:48px; border: 1px solid #fff; border-radius: 8px; color: #FFFFFF; width: 85%; margin: 0 auto; font-weight: 600; font-size: 15px; letter-spacing: 0em; text-align: center;line-height: 18px;}
+.contain.items-list.latest-features .row .item-button a:hover{border: 1px solid #d8d9d9; color: #d8d9d9}
+.contain.items-list.latest-features .row .item-button a:active{border: 1px solid #777878; color: #777878}
+
+.contain.items-list h3.center{
+    padding: 40px; 
+    text-align: center;
+    font: 32px "KIA-REGULAR", sans-serif;
+    line-height: 40px;
+    color: #05141F;
+}
+
+.contain.items-list h3.left{
+    text-align: left;
+    font: 32px "KIA-REGULAR", sans-serif;
+    line-height: 40px;
+}
+
+.contain.items-list .box{padding: 10px}
+.contain.items-list .box a{color: #000;}
+.contain.items-list .box .item{background-color: #f0f0f0; padding: 10px; box-shadow: 0 3px 3px 0 #d0d0d0}
+.contain.items-list .box .item img{margin-right: 10px; float: left}
+.contain.items-list .box .item p{margin-top: 30px}
+
+.contain.items-list.setup{font: 20px "KIA-REGULAR", sans-serif; line-height: 28px; padding: 0px 140px; color: #000; margin:48px auto}
+.contain.items-list.setup h3.left{
+	font: 600 36px "KIA-REGULAR", sans-serif; line-height: 44px;
+    color: #05414F;            
+    text-align: center;
+    margin: 0px auto 48px;
+}
+
+.contain.items-list.setup .box{text-align: center}
+.contain.items-list.setup .box .box-in{display: inline-flex; margin: 0 auto}
+
+.contain.items-list.setup .box .box-in span{padding: 30px 0 0; text-align: left}
+.contain.items-list.setup .box .box-in span.one{padding: 45px 0 0}
+
+
+/* close CSS for itemsList */
+@media (max-width: 1220px) {
+	.contain.items-list.setup{padding: 0px}
+}
+
+@media (min-width: 767px) {
+	.contain.items-list{max-width: 70%; padding: 0;}
+}
+
+@media ( max-width : 991px) {
+     .view-uvo-availability .page-content .contain.popular-features, .view-uvo-availability .page-content .contain.latest-features{padding: 0px}
+	 
+
+
+    .contain.items-list.popular-features .item .item-text, .contain.items-list.latest-features .item .item-text{font: 14px "KIA-REGULAR", sans-serif; width: 100%}
+}
+
+@media ( max-width : 1120px) and (min-width: 991px) {
+    .contain.items-list.more-explore .item p, .contain.items-list.more-explore-plans .item p{font-size: 16px}
+}
+
+@media ( max-width : 1024px) {
+	.contain.items-list.more-explore, .contain.items-list.more-explore-plans{padding: 42px}
+	.contain.items-list.veh-care .inner {padding: 0 42px;}
+	.contain.items-list.popular-features .item .item-text{margin-top:35%;}
+	.contain.items-list.latest-features .item .item-text{ margin-top:35%;}
+	.contain.items-list.veh-care .row .title{font: 600 18px "KIA-REGULAR", sans-serif; line-height: 29px;}
+	.contain.items-list.veh-care .row .care-info{font: 14px "KIA-REGULAR", sans-serif; line-height: 18px; min-height: 140px;}
+
+	.contain.items-list.setup h3.left{
+        font: 600 30px "KIA-REGULAR", sans-serif; line-height: 34px;
+    }
+	.contain.items-list h3.left{
+        font: 24px "KIA-REGULAR", sans-serif;
+        line-height: 24px;
+    }
+    .contain.items-list.popular-features .item p.info{font-size: 12px; line-height: 16px}
+	.contain.items-list.popular-features .item .item-text b, .contain.items-list.latest-features .item .item-text b{font-size: 20px; line-height: 22px; margin-bottom: 8px;}
+	.contain.items-list.popular-features .item p.info{min-height: 130px}
+}
+
+@media ( max-width : 991px) and (min-width: 768px) {
+	.contain.items-list.setup{font: 12px "KIA-REGULAR", sans-serif; line-height: 16px;}
+	.contain.items-list.popular-features .item .item-text{margin-top:0%;}
+	.contain.items-list.latest-features .item .item-text{ margin-top:0%;}
+	.contain.items-list.setup .box .box-in span{padding: 42px 0 0}
+	.contain.items-list.setup .box .box-in span.one{padding: 52px 0 0}
+	.contain.items-list.popular-features .item p.info{min-height: 160px}
+
+	.contain.items-list.more-explore .item p, .contain.items-list.more-explore-plans .item p{font-size: 13px;  line-height: 24px;}
+}
+
+@media ( max-width : 767px) {
+    .contain.items-list h3.title{padding-top: 120px;}
+	
+	.contain.items-list h3.center, .contain.items-list h3.left{
+        font: 600 24px "KIA-REGULAR",sans-serif;
+        line-height: 32px;      
+    	padding: 22px 0;
+    }
+
+	.contain.items-list.more-explore{padding: 0 32px}
+	.contain.items-list.more-explore-plans{padding: 0 20px !important}
+
+	.contain.items-list.more-explore .row .col-xs-12, .contain.items-list.more-explore-plans .row .col-xs-12{margin-bottom: 20px}
+
+	.contain.items-list.veh-care{padding: 0 32px}
+	.contain.items-list.veh-care .row .care-info{min-height: 0px; line-height: 24px;}
+	.contain.items-list.veh-care .row .btnLearnMore{margin: 16px 0px;}
+
+	.contain.items-list.latest-features .row .item-text a{padding: 10px 0px;}
+	.contain.items-list.latest-features .row .item-button a{padding: 10px 0px;}
+
+	.contain.items-list.setup{padding: 0 45px; margin: 32px auto}
+	.contain.items-list.setup h3.left{font-size: 28px; line-height: 34px; color: #000; margin: 0px auto 10px}
+	.contain.items-list.setup .box{text-align: left}
+	.contain.items-list.setup .box .box-in span{padding: 10px 0 0;}
+	.contain.items-list.setup .box .box-in span.one{padding: 20px 0 0}
+
+	.contain.items-list.veh-care .inner{padding: 0px}
+
+	.contain.items-list.veh-care .row .title{font-size: 24px; padding: 0px;}
+    .contain.items-list.veh-care .row .care-info{font-size: 16px; padding: 0px}
+
+	.contain.items-list.more-explore-plans .item p.multiLine span{display: none}
+	.contain.items-list.more-explore-plans .item p.multiLine{top: calc(50% - 12px);}
+}
+@media (min-width : 320px) and (max-width: 374px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:30%;}
+	.contain.items-list.popular-features .item .desc{top: 14%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:40%;}
+	.contain.items-list.latest-features .item .desc{top: 13%}
+}
+@media (min-width : 375px) and (max-width: 424px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:60%;}
+	.contain.items-list.popular-features .item .desc{top: 12%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:60%;}
+	.contain.items-list.latest-features .item .desc{top: 12%}
+}
+@media (min-width : 425px) and (max-width: 510px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:60%;}
+	.contain.items-list.popular-features .item .desc{top: 12%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:65%;}
+	.contain.items-list.latest-features .item .desc{top: 10%}
+}
+@media (min-width : 511px) and (max-width: 610px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:80%;}
+	.contain.items-list.popular-features .item .desc{top: 7%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:80%;}
+	.contain.items-list.latest-features .item .desc{top: 7%}
+}
+@media (min-width : 610px) and (max-width: 680px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:85%;}
+	.contain.items-list.popular-features .item .desc{top: 6%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:85%;}
+	.contain.items-list.latest-features .item .desc{top: 6%}
+}
+@media (min-width : 681px) and (max-width: 767px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:90%;}
+	.contain.items-list.popular-features .item .desc{top: 5%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:90%;}
+	.contain.items-list.latest-features .item .desc{top: 5%}
+}
+@media (min-width : 768px) and (max-width: 1023px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:15%;}
+	.contain.items-list.popular-features .item .desc{top: 23%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:0%;}
+	.contain.items-list.latest-features .item .desc{top: 23%}
+}
+@media (min-width : 1024px) and (max-width: 1439px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:60%;}
+	.contain.items-list.popular-features .item .desc{top: 13%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:25%;}
+	.contain.items-list.latest-features .item .desc{top: 14%}
+}
+
+@media (min-width : 1440px) and (max-width: 1559px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:65%;}
+	.contain.items-list.popular-features .item .desc{top: 13%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:60%;}
+	.contain.items-list.latest-features .item .desc{top: 13%}
+}
+@media (min-width : 1560px) and (max-width: 1919px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:75%;}
+	.contain.items-list.popular-features .item .desc{top: 13%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:70%;}
+	.contain.items-list.latest-features .item .desc{top: 13%}
+}
+@media (min-width : 1920px) { 
+	.contain.items-list.popular-features .item .item-text{margin-top:85%;}
+	.contain.items-list.popular-features .item .desc{top: 7%} 
+	.contain.items-list.latest-features .item .item-text{margin-top:85%;}
+	.contain.items-list.latest-features .item .desc{top: 7%}
+}
